@@ -22,8 +22,14 @@ export default function Home() {
     </ShaderGradientCanvas>
       <div className="fixed w-full m-auto text-center flex flex-col h-full text-white">
           <div className="absolute top-3 w-full text-center">
-            <Link href={'https://github.com/FrancoNatanael'} target="_blank" className="mr-4">GitHub</Link>
-            <Link href={'https://www.linkedin.com/in/franco-tomaino/'} target="_blank">LinkedIn</Link>
+            <Link 
+            href={'https://github.com/FrancoNatanael'} 
+            target="_blank" 
+            className="mr-4 transition duration-200 hover:opacity-80">GitHub</Link>
+
+            <Link 
+            href={'https://www.linkedin.com/in/franco-tomaino/'}
+            target="_blank" className="transition duration-200 hover:opacity-80">LinkedIn</Link>
           </div>
 
           <div className="absolute bottom-1/2 w-full text-center">
